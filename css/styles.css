@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 body {
-font-family: 'Oswald', sans-serif;
-background: #dfdfdf;
+background: #e6ffff;
 }
 
 .container{
@@ -10,7 +8,7 @@ padding: 20px;
 width: 300px;
 margin: 0 auto;
 margin-top: 40px;
-background: white;
+background: #ccffcc;
 border-radius: 5px;}
 
 form {
@@ -23,12 +21,14 @@ padding: 4px 15px 4px 5px;
 
 #button{
 display: inline-block;
-background-color:#fc999b;
+background-color:#003300;
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
 margin-top:2px;
 padding: 5px 15px;
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
 }
 
 #button:hover{
@@ -37,9 +37,14 @@ opacity: .8;}
 
 ol {padding-left: 20px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {
+  padding: 5px;
+  color:#000;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 24px;
+}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even){background: #ffffff;}
 
 .strike{text-decoration: line-through;}
 
@@ -56,9 +61,14 @@ li > crossOutButton {
 	border: none;
 	float: right;
 	color: #025f70;
-  font-family: 'Passions Conflict', cursive;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
 }
